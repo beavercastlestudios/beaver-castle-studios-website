@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Beaver Castle Studios is an independent game studio building bold multiplayer experiences.">
+  <meta name="theme-color" content="#090b0a">
+  <title>Beaver Castle Studios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Beaver Castle Studios, home">
+      <img src="assets/bcs-logo.png" alt="" width="48" height="48">
+      <span>Beaver Castle<br>Studios</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#games">Games</a>
+      <a href="#studio">Studio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Independent game studio</p>
+        <h1 id="hero-title">Small team.<br><span>Big play.</span></h1>
+        <p class="hero-lede">We create energetic multiplayer games made for unforgettable moments with friends.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#games">Explore our games</a>
+          <a class="button button-secondary" href="#studio">Meet the studio</a>
+        </div>
+      </div>
+      <div class="hero-mark reveal" aria-hidden="true">
+        <img src="assets/bcs-logo.png" alt="">
+      </div>
+      <div class="ticker" aria-hidden="true">
+        <div>BEAVER CASTLE STUDIOS <b>•</b> INDEPENDENT GAMES <b>•</b> BUILT FOR PLAY <b>•</b> BEAVER CASTLE STUDIOS <b>•</b></div>
+      </div>
+    </section>
+
+    <section class="section games" id="games" aria-labelledby="games-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Our games</p>
+        <h2 id="games-title">Worlds made<br>to be played.</h2>
+      </div>
+      <article class="game-card reveal">
+        <div class="game-image">
+          <img src="assets/monster-truck-action.jpg" alt="Four players racing monster trucks through a tropical arena">
+          <span class="status">In development</span>
+        </div>
+        <div class="game-copy">
+          <img class="game-logo" src="assets/monster-truck-world-logo.png" alt="Monster Truck World">
+          <p>A chaotic multiplayer monster truck experience packed with jumps, crashes and arena-sized competition.</p>
+          <div class="game-meta">
+            <span>Multiplayer</span><span>Action</span><span>PC</span>
+          </div>
+          <span class="button button-muted" aria-label="Monster Truck World is coming to Steam">Coming to Steam</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="arena-break" aria-label="Monster Truck World arena">
+      <img src="assets/monster-truck-arena.jpg" alt="A wide tropical arena from Monster Truck World">
+      <p aria-hidden="true">PLAY LOUD</p>
+    </section>
+
+    <section class="section studio" id="studio" aria-labelledby="studio-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">The studio</p>
+        <h2 id="studio-title">Built with<br>personality.</h2>
+      </div>
+      <div class="studio-copy reveal">
+        <p class="large-copy">Beaver Castle Studios is an independent game studio focused on playful ideas, strong identity and games that bring people together.</p>
+        <p>We are currently building our first announced title, Monster Truck World. More projects and studio updates are on the way.</p>
+      </div>
+      <div class="values" aria-label="Our values">
+        <div class="value reveal"><strong>01</strong><h3>Play first</h3><p>Every decision starts with what feels fun.</p></div>
+        <div class="value reveal"><strong>02</strong><h3>Bold identity</h3><p>Games should have a voice of their own.</p></div>
+        <div class="value reveal"><strong>03</strong><h3>Made together</h3><p>Built for the moments players share.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">Let's talk</p>
+        <h2 id="contact-title">Get in<br>the game.</h2>
+        <p>Business, press or just want to follow the journey?</p>
+        <div class="contact-links">
+          <a class="button button-dark" href="mailto:beavercastlestudios@gmail.com">Email the studio</a>
+          <a class="text-link" href="https://www.tiktok.com/@beavercastlestudios" target="_blank" rel="noreferrer">TikTok <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><img src="assets/bcs-logo.png" alt="" width="44" height="44"><span>Beaver Castle<br>Studios</span></a>
+    <p>© <span id="year"></span> Beaver Castle Studios.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
