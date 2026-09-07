@@ -1,0 +1,12 @@
+.game-title {
+  margin: 0 0 32px;
+  color: var(--lime);
+  font: italic 900 clamp(3.4rem, 5.5vw, 6rem)/.73 "Barlow Condensed", sans-serif;
+  letter-spacing: -.035em;
+  text-transform: uppercase;
+}
+
+.game-title span {
+  display: block;
+  color: var(--paper);
+}
